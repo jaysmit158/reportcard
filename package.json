@@ -1,0 +1,19 @@
+{
+  "name": "reportcard",
+  "version": "1.0.0",
+  "description": "Report Card of Students",
+  "main": "reportcard.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaysmit158/reportcard.git"
+  },
+  "author": "jordan s",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaysmit158/reportcard/issues"
+  },
+  "homepage": "https://github.com/jaysmit158/reportcard#readme"
+}
