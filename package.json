@@ -4,7 +4,7 @@
   "description": "Report Card of Students",
   "main": "reportcard.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel reportcard.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/jaysmit158/reportcard/issues"
   },
-  "homepage": "https://github.com/jaysmit158/reportcard#readme"
+  "homepage": "https://github.com/jaysmit158/reportcard#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "eslint": "^4.4.0",
+    "eslint-config-google": "^0.9.1"
+  }
 }
