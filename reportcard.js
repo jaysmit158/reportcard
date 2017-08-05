@@ -3,7 +3,7 @@
 //This
 
 class Student {
-  constructor({ name, age, interestLevel} = {}) {
+  constructor({ name, age, interestLevel = 5 } = {}) {
     this.name = name;
     this.age = age;
     this.interestLevel = interestLevel;
@@ -11,7 +11,7 @@ class Student {
   }
 }
 
-let joey = new Student({ name: 'Joey', age: 14 });
+let joey = new Student({ name: 'Joey', age: 14,  });
 let sarah = new Student({ name: 'Sarah', age: 14 });
 let alex = new Student({ name: 'Alex', age: 15 });
 let blake = new Student({ name: 'Blake', age: 13 });
@@ -42,4 +42,4 @@ blake.grades.set('English', 'A');
 blake.grades.set('French', 'A');
 
 
-console.log(Array.from(sarah.grades), Array.from(joey.grades));
+// console.log(Array.from(sarah.grades));
