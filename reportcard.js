@@ -27,16 +27,19 @@ sarah.grades.set('History', 'B');
 sarah.grades.set('Math', 'A');
 sarah.grades.set('Science', 'A');
 sarah.grades.set('English', 'B');
+sarah.grades.set('French', 'B');
 
-alex.grades.set('History', 'F');
+alex.grades.set('History', 'C');
 alex.grades.set('Math', 'C');
 alex.grades.set('Science', 'C');
-alex.grades.set('English', 'D');
+alex.grades.set('English', 'C');
+alex.grades.set('Spanish', 'B');
 
 blake.grades.set('History', 'A');
 blake.grades.set('Math', 'C');
 blake.grades.set('Science', 'C');
 blake.grades.set('English', 'A');
+blake.grades.set('French', 'A');
 
 
-console.log(Array.from(sarah.grades),);
+console.log(Array.from(sarah.grades), Array.from(joey.grades));
