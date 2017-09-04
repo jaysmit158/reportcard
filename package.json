@@ -4,7 +4,7 @@
   "description": "Report Card of Students",
   "main": "reportcard.js",
   "scripts": {
-    "build": "babel reportcard.js"
+    "build": "babel reportcard.js -o compiled.js"
   },
   "repository": {
     "type": "git",
