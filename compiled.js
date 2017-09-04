@@ -19,8 +19,8 @@ var Student = function Student() {
 
 var joey = new Student({ name: 'Joey', age: 14 });
 var sarah = new Student({ name: 'Sarah', age: 14 });
-var alex = new Student({ name: 'Alex', age: 15 });
-var blake = new Student({ name: 'Blake', age: 13 });
+var alex = new Student({ name: 'Alex', age: 14 });
+var blake = new Student({ name: 'Blake', age: 14 });
 
 joey.grades.set(' History', ' C ');
 joey.grades.set(' Math', ' B ');

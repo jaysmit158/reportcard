@@ -11,8 +11,8 @@ class Student {
 
 let joey = new Student({ name: 'Joey', age: 14 });
 let sarah = new Student({ name: 'Sarah', age: 14 });
-let alex = new Student({ name: 'Alex', age: 15 });
-let blake = new Student({ name: 'Blake', age: 13 });
+let alex = new Student({ name: 'Alex', age: 14 });
+let blake = new Student({ name: 'Blake', age: 14 });
 
 
 joey.grades.set(' History', ' C ');
